@@ -16,6 +16,16 @@ git config --global --list
 ```
 
 Initialize an empty the repository with `git init <projectName>` (this creates a .git folder)
+ 
+# Add/commit changes
+* Add already existing files: `git commit -am "<comment here>"`
+* Add new files recursively: `git add .`
+* Add single files: `git <file here>`
+
+# Unstage changes
+* Revert changes on a file: `git reset HEAD <fileToBeReverted>`
+
+
 
 
 
