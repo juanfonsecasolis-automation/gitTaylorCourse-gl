@@ -22,10 +22,13 @@ Initialize an empty the repository with `git init <projectName>` (this creates a
 * Add new files recursively: `git add .`
 * Add single files: `git <file here>`
 
-# Unstage changes
-* Revert changes on a file: `git reset HEAD <fileToBeReverted>`
+# Revert/unstage changes
+* Revert changes on a file: `git restore <filename>` 
+* Remove file from a commit: `git reset HEAD <fileToBeReverted>`
 
-
+# Logs
+* See commits made to origin `git log` 
+* See logs in a simplified way `git log --oneline --graph --decorate --color`
 
 
 
