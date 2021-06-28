@@ -18,13 +18,14 @@ git config --global --list
 Initialize an empty the repository with `git init <projectName>` (this creates a .git folder)
  
 # Add/commit changes
+* Add files (stage) `git commit -m "<comments here>"`
 * Add already existing files: `git commit -am "<comment here>"`
 * Add new files recursively: `git add .`
 * Add single files: `git <file here>`
 
 # Revert/unstage changes
 * Revert changes on a file: `git restore <filename>` 
-* Remove file from a commit: `git reset HEAD <fileToBeReverted>`
+* Remove file from a commit (called unstage): `git reset HEAD <fileToBeReverted>`
 
 # Logs
 * See commits made to origin `git log` 
@@ -34,4 +35,8 @@ Initialize an empty the repository with `git init <projectName>` (this creates a
 * Option 1: use `git rm <filename>`
 * Option 2: remove file without using git `rm <filename>`, then use `git add -u` to let GIT put the `git rm` automatically (useful when you have a lot of deletions) 
 
+# Move files
+* Use `git mv <originPath> <targetPath>`
 
+# Ignore files
+* Included the file name or extension in `.gitignore`
