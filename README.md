@@ -30,5 +30,8 @@ Initialize an empty the repository with `git init <projectName>` (this creates a
 * See commits made to origin `git log` 
 * See logs in a simplified way `git log --oneline --graph --decorate --color`
 
+# Delete
+* Option 1: use `git rm <filename>`
+* Option 2: remove file without using git `rm <filename>`, then use `git add -u` to let GIT put the `git rm` automatically (useful when you have a lot of deletions) 
 
 
