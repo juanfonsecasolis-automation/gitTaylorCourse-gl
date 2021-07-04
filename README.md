@@ -2,7 +2,14 @@
 2021 Juan Fonseca. 
 Repository for uploading the assignments of the course https://gorillalogic.udemy.com/course/git-going-fast
 
-# Commands:
+# Git installation
+* Get Git installation directory: `which git`.
+* Get Git version: `git version`
+
+# Git staging
+![](https://static.javatpoint.com/tutorial/git/images/git-index.png)
+
+# Commands
 * List all GIT commands: `git help`
 * Help for a specific GIT command: `git help <specific command>` 
 
@@ -40,3 +47,22 @@ Initialize an empty the repository with `git init <projectName>` (this creates a
 
 # Ignore files
 * Included the file name or extension in `.gitignore`
+
+# SSH
+* Create a new key: `cd ~/.ssh; ssh-keygen -t rsa -C "yourEmailAddress"`
+* Vefify SSH authentication:`ssh -T git@github.com`
+
+# Link an existing local repository with a Github repository
+```
+git remote add origin git@github.com:<nameOfTheRepository.git>
+```
+
+List Git's remotes: `git remote -v`
+
+Let the master branch know that it should push to the recently added repository:
+```
+git push -u origin master
+```
+
+# Good practices
+* Do a pull before doing a push to get other developer's changes
