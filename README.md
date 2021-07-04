@@ -1,5 +1,6 @@
 # gitTaylorCourse-gl
 2021 Juan Fonseca. 
+
 Repository for uploading the assignments of the course https://gorillalogic.udemy.com/course/git-going-fast
 
 # Git installation
@@ -8,6 +9,8 @@ Repository for uploading the assignments of the course https://gorillalogic.udem
 
 # Git staging
 ![](https://static.javatpoint.com/tutorial/git/images/git-index.png)
+
+Figure taken from https://static.javatpoint.com/tutorial/git/images/git-index.png.
 
 # Commands
 * List all GIT commands: `git help`
@@ -66,3 +69,6 @@ git push -u origin master
 
 # Good practices
 * Do a pull before doing a push to get other developer's changes
+
+# Certificate of completition
+![](img/UC-85123ca0-1855-45fb-ae26-a0eb8911fc06.jpg)
