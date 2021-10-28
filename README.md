@@ -1,6 +1,5 @@
 # gitTaylorCourse-gl
-Repository for uploading the assignments of the course https://gorillalogic.udemy.com/course/git-going-fast
-2021 Juan Fonseca. 
+2021 Juan Fonseca. Repository for uploading the assignments of the course https://gorillalogic.udemy.com/course/git-going-fast.
 
 ## 1 Pre-requisites
 ```
